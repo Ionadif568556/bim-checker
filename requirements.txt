@@ -1,0 +1,9 @@
+# 在 Streamlit Community Cloud 的 Advanced settings 中选择 Python 3.12。
+# 从 PyPI 安装官方预编译 wheel，避免尝试在云端编译 IfcOpenShell。
+# 不要把 Windows 的 .whl 地址、C:/I: 路径或 python==3.12 写到本文件。
+--only-binary=ifcopenshell
+ifcopenshell==0.9.0.post1
+streamlit==1.66.0
+pandas>=2.2,<4
+numpy>=2.0,<3
+plotly>=6,<8
